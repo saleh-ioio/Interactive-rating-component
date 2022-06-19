@@ -1,0 +1,26 @@
+.submitted{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    *{
+        
+        text-align: center;
+    }
+}
+
+.hide{
+    display: none;
+}
+.txtCon{
+    text-align: center;
+    padding: 0.01rem 1.5rem;
+    margin: 2rem 0.5rem;
+}
+
+.thankImg{
+    width: 5rem;
+    height: 5rem;
+   
+}

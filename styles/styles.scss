@@ -1,8 +1,35 @@
+
+@import 'variables';
+@import 'submitted';
+@import 'card';
+@import 'rated';
+@import url(https://fonts.google.com/specimen/Overpass);
+
 .attribution {
     font-size: 11px;
     text-align: center;
 }
 
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color: #141519;
+}
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+
+.holder{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center ;
+    height: 95vh;
+}
+
+*{
+ color: white;   
+}
+p, b{
+    color: hsl(217, 12%, 63%);
 }

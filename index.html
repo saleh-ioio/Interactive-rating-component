@@ -1,47 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Interactive rating component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
 
-  <!-- Rating state start -->
+  <div class="holder">
 
-  How did we do?
+    <div class="centered">
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
+      <div class="card rating hide" >
 
-  1 2 3 4 5
+        <span class="smallCon padding"><img src="images/icon-star.svg" alt="star icon"></span>
 
-  Submit
+        <h3>How did we do?</h3>
 
-  <!-- Rating state end -->
+        <p>Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!</p>
 
-  <!-- Thank you state start -->
+        <div class="numHolder padding">
+          <span class="numRate"><b>1</b></span>
+          <span class="numRate"><b>2</b></span>
+          <span class="numRate"><b>3</b></span>
+          <span class="numRate"><b>4</b></span>
+          <span class="numRate"><b>5</b></span>
+        </div>
+        <span class="button">
+          <div class="submit">
+            <h4>Submit</h4>
+          </div>
 
-  You selected <!-- Add rating here --> out of 5
+      </div>
 
-  Thank you!
+    </div>
 
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
 
-  <!-- Thank you state end -->
 
-  
+    <div class="card submitted ">
+     
+    
+        
+      <img class="thankImg" src="images/illustration-thank-you.svg" alt="thank you img">
+      <div class="txtCon">
+      <p class="orange"> You selected
+        <span id="ratedNum"></span> out of 5
+      </p></div>
+
+      <h3>Thank you!</h3>
+
+
+      <p>We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!
+      </p>
+
+
+    </div>
+  </div>
+  </div>
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
+
 </html>
