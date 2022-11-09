@@ -10,8 +10,15 @@
 padding: 0.7rem 1rem;
 }
 
+.selected{
+    background-color: #7C8898;
+    b{
+    color: $white;}
+}
+
 .numRate{
-    
+   padding: 0.7rem 1rem; 
+   margin-right: 1rem;
 
     &:hover{
         background-color: $orange;

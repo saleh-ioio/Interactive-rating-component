@@ -45,6 +45,17 @@
   padding: 0.7rem 1rem;
 }
 
+.selected {
+  background-color: #7C8898;
+}
+.selected b {
+  color: hsl(0deg, 0%, 100%);
+}
+
+.numRate {
+  padding: 0.7rem 1rem;
+  margin-right: 1rem;
+}
 .numRate:hover {
   background-color: hsl(25deg, 97%, 53%);
 }
